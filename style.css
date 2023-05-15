@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap%27);
+body, P {
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: Darumadrop One;
+    color: white;
+    text-align: center;
+}
+
+.principal {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 190px 470px 100px;
+    grid-template-areas: 
+    "cabecalho cabecalho"
+    
+    "secao secao"
+    
+    "rodape rodape";
+}
+header {
+    grid-area: cabecalho;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./img/bakgroud-arcoiris.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+section {
+    grid-area: secao;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+
+}
+
+footer {
+    grid-area: rodape;
+    display: flex;
+    justify-content: space-evenly;
+}
+.parte1, .parte2 {
+    width: 50%;
+    background-image: url('./img/bakgroud-arcoiris.png');
+    background-size: cover;
+}
+
+.parte2 {
+    width: 50%;
+    margin: 0 2px;
+    background-image: url('./img/bakgroud-arcoiris.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagens {
+    flex-direction: column;
+    position: relative;
+    font-family: darumadrop one;
+    color: black;
+    font-size: 15px;
+   }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+}
+.h2 {
+    text-decoration: line-through;
+    color: rgb(255, 69, 69);
+}
+.img {
+    border: solid 10px antiquewhite;
+    height: 310px;
+    width: 310px;
+    
+}
+
+@media(max-width: 768px) {
+    body {
+        margin: 0 15px;
+    }
+
+.principal, .parte1, .parte2 {
+    width: 100%;
+}
+
+.parte2 {
+    order: initial;
+}
+}
+
+.principal a {
+    text-decoration: none;
+    color: white;
+}
+.amarelo:hover {
+    text-decoration: none;
+    color: rgb(255, 246, 69);
+}
+.principal li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+.roxo:hover {
+    text-decoration: none;
+    color: rgb(125, 69, 255);
+}
+.laranja:hover {
+    text-decoration: none;
+    color: rgb(255, 140, 69);
+}
+.azul:hover {
+    text-decoration: none;
+    color: rgb(69, 125, 255);
+}
+.verde:hover {
+    text-decoration: none;
+    color: rgb(162, 255, 116);
+}
+.vermelho:hover {
+    text-decoration: none;
+    color: rgb(255, 69, 69);
+}
+.preto {
+    color: black !important;
+    text-decoration: none;
+
+}
+
+
