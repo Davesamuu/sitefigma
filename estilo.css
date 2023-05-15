@@ -3,14 +3,33 @@
 
 body{
     font-family:Darumadrop One;
+    font-size: 1.5rem;
 }
 
-#menu {
-    display:flex;
-  align-items:center;
-  justify-content:center;
-  text-align:center;
-  background-color:#E1BBFF;
+.principal {
+   width: 100%;
+   margin: 0 auto;
+
+}
+
+header {
+   grid-area: cabecalho;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color:#d2a1f7;
+   height: 25vh;
+}
+
+header img {
+   width: 150px;
+   border-radius: 50%;
+}
+
+.principal a {
+   text-decoration: none;
+   color: white;
+}
 
 .stretch{
     align-items: stretch;
@@ -36,65 +55,20 @@ body{
    margin-right:190px;
  }
 
- #menu li a.imagem2:hover{
-   font-size: 130%;
-   transition: 0.5s;
-   color:#ffff00
-}
+ ul li {
+   list-style-type: none;
+   display: inline;
+ }
 
-#menu li a.imagem3:hover{
-  font-size: 130%;
-  transition: 0.5s;
-  color:#e709b7
-}
+ li a {
+   margin: 1.5rem;
+ }
 
-#menu li a.imagem4:hover{
-  font-size: 130%;
-  transition: 0.5s;
-  color:#f59402
-}
-
-#menu li a.imagem5:hover{
-  font-size: 130%;
-  transition: 0.5s;
-  color:#06e6f2
-}
-
-#menu li a.imagem6:hover{
-  font-size: 130%;
-  transition: 0.5s;
-  color:#09e709
-}
-
-#menu li a.imagem7:hover{
-  font-size: 130%;
-  transition: 0.5s;
-  color:#f30303
-}
-  
 .img {
 width: 50%;
 height: 50%;
 border-radius: 50%;
 }
-
-  #menu a {
-  text-decoration:none;
-color:#ffffff;}
-font-family: darumadrop one;
-
-}
-
-  
-  #menu li {
-  display: inline;
-  padding: 0 20px 0 20px;}
- 
-  #menu li a:hover {
-
-     transition: 0.5s;
-     transform: scale(8);
-  }
 
     
  .div-imagens {
