@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+
+body{
+    font-family:Darumadrop One;
+}
+
+#menu {
+    display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  background-color:#41ff1f;
+
+.stretch{
+    align-items: stretch;
+ }
+ 
+ #menu {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  font-family:Verdana;
+  background-color: #E1BBFF;
+  color: #7c38b1;
+  font-weight:bold;
+  font-size:16pt;
+  height:25vh;
+ }
+ 
+ .imagem1 {
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+   margin-right:190px;
+ }
+
+ #menu li a.imagem2:hover{
+   font-size: 130%;
+   transition: 0.5s;
+   color:#ffff00
+}
+
+#menu li a.imagem3:hover{
+  font-size: 130%;
+  transition: 0.5s;
+  color:#e709b7
+}
+
+#menu li a.imagem4:hover{
+  font-size: 130%;
+  transition: 0.5s;
+  color:#f59402
+}
+
+#menu li a.imagem5:hover{
+  font-size: 130%;
+  transition: 0.5s;
+  color:#06e6f2
+}
+
+#menu li a.imagem6:hover{
+  font-size: 130%;
+  transition: 0.5s;
+  color:#070707
+}
+
+#menu li a.imagem7:hover{
+  font-size: 130%;
+  transition: 0.5s;
+  color:#f30303
+}
+  
+.img {
+width: 50%;
+height: 50%;
+border-radius: 50%;
+}
+
+  #menu a {
+  text-decoration:none;
+color:#ffffff;}
+font-family: darumadrop one;
+
+}
+
+  
+  #menu li {
+  display: inline;
+  padding: 0 20px 0 20px;}
+ 
+  #menu li a:hover {
+
+     transition: 0.5s;
+     transform: scale(8);
+  }
+
+    
+ .div-imagens {
+   display:flex;
+   justify-content:space-between;
+   position: relative;
+   margin-left:10%;
+   margin-right:10%;
+  }
+
+  .imagem {
+     max-width: 150px;
+  }
+  .imagem2 {
+     width: 1500px;
+ 
+  }
+
+ 
+  a:active, a:visited, a:link {
+     text-decoration: none;
+  }
+ 
+
+
+  .aumenta:hover{
+     font-size: 120%;
+     transition: 0.5s;
+     transform: scale(1.1);
+  }
+  
+ .flex {
+     display: flex;
+ }
+ 
+ .imagens {
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #ccc;
+ }
+ 
+ .imagem-ind {
+    flex: 1;
+ }
+ 
+ .imagem-ind img {
+    width: 100%;
+    height: 100%;
+ }
+
+
+
+ .imgs { 
+  margin:20px;
+  border:solid #10a815 10px;
+ }
+                     
+                          
+ .imgs:hover {transform: scale(1.1)};
+
+ .div-imagens {
+  display:flex;
+  justify-content:space-between;
+  position: relative;
+  margin-left:10%;
+  margin-right:10%;
+  font-family: darumadrop one;
+ }
+
+ .img1 { 
+  margin:10px;
+  border:solid #cc92f9 7px;
+ }
+                     
+                          
+ .img1:hover {transform: scale(1.1);
+  cursor: pointer ;
+  transition: .3s;
+ }
+
+ .titulo {
+    text-align: center;
+    font-size: 100px;
+    font-size: 70px;
+    font-family: darumadrop one;
+ }
+
+ .container-dois {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    border: 0px solid #ccc;
+
+    background-color: #296544;
+
+    background-color: #7c20c2;
+
+    color: white;
+ }
+ 
+ .item {
+    flex: 1;
+    margin: 5px;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 10px;
+
+    padding-top: 5px
+ }
+
+ .botaobranco {
+    color: white;
+
+    font-family: darumadrop one;
+ }
+ 
+ .item:first-child {
+    padding-top: 20px;
+ 
+ }
+
+ .container-dois {
+   max-width: 100%;
+   margin: 0 auto;
+   display: flex;
+   border: 0px solid #ccc;
+   background-color: #9233db;
+   color: rgb(0, 0, 0);
+}
+
+ .amarelo:hover{
+   color: rgb(255,246,69) !important;
+ }
+ .roxo:hover{
+   color: rgb(125,69,255) !important;
+ }
+ .laranja:hover{
+   color: rgb(255,140,69) !important;
+ }
+ .azul:hover{
+   color: rgb(69,125,255) !important;
+ }
+ .verde:hover{
+   color: rgb(162,255,116) !important;
+ }
+ .vermelho:hover{
+   color: rgb(255,69,69) !important;
+ }
+
+ .container-dois {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    border: 0px solid #ccc;
+    background-color: #41ff1fc9;
+    color: white;
+ }
