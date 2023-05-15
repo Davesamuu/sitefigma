@@ -10,7 +10,7 @@ body{
   align-items:center;
   justify-content:center;
   text-align:center;
-  background-color:#E1BBFF;
+  background-color:#41ff1f;
 
 .stretch{
     align-items: stretch;
@@ -63,7 +63,7 @@ body{
 #menu li a.imagem6:hover{
   font-size: 130%;
   transition: 0.5s;
-  color:#09e709
+  color:#070707
 }
 
 #menu li a.imagem7:hover{
@@ -250,6 +250,6 @@ font-family: darumadrop one;
     margin: 0 auto;
     display: flex;
     border: 0px solid #ccc;
-    background-color: #000000;
+    background-color: #41ff1fc9;
     color: white;
  }
